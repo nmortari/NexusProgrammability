@@ -1,7 +1,7 @@
 # Home
 
 ## Programmability Overview
-    This site covers many areas of programmability pertaining to Cisco's Nexus Operating System (NX-OS).
+This site covers many areas of programmability pertaining to Cisco's Nexus Operating System (NX-OS).
 
 
 ## Project layout
