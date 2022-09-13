@@ -1,1 +1,28 @@
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+      #Light Mode
+      - scheme: default
+        primary: light blue
+        accent: blue
+        toggle:
+          icon: material/brightness-7
+          name: Light mode
+    
+      #Dark mode
+      - scheme: slate
+        primary: light blue
+        accent: yellow
+        toggle:
+          icon: material/brightness-3
+          name: Dark mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - toc.follow
+
 site_name: Cisco NX-OS Programmability
