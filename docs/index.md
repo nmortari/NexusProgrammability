@@ -4,15 +4,6 @@
     This site covers many areas of programmability pertaining to Cisco's Nexus Operating System (NX-OS).
 
 
-    ```
-    code test
-    ```
-
-    test
-        test
-        test # testing
-        test # testing
-
 ## Project layout
     * bullet test
     * `mkdocs -h` - Print help message and exit.
