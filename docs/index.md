@@ -1,15 +1,21 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Programmability Overview
+    This site covers many areas of programmability pertaining to Cisco's Nexus Operating System (NX-OS).
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+    ```
+    code test
+    ```
+
+    test
+        test
+        test # testing
+        test # testing
 
 ## Project layout
+    * bullet test
+    * `mkdocs -h` - Print help message and exit.
 
     mkdocs.yml    # The configuration file.
     docs/
