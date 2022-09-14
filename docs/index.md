@@ -14,6 +14,7 @@ NX-OS software running on Cisco Nexus 9000 Series switches is:
 * Easy to Use - Reduces the amount of learning required, simplifies deployment, and provides ease of manageability
 
 The Nexus 9000 homepage can be found below:
+
 [Cisco Nexus 9000 Series Switches](https://www.cisco.com/site/us/en/products/networking/cloud-networking-switches/nexus-9000-switches/index.html)
 
 Please select one of the categories on the left side to learn about that programmability topic.
