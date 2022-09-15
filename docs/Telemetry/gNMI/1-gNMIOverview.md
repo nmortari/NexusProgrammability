@@ -38,6 +38,7 @@ FILL IN LATER
 
 ## gNMI Subscription
 gNMI subscription can be used with both dial-in or dial-out methods.
+
 * For dial-in subscriptions, the client has the configuration of what it would like from the switch. It will then reach out and 
 
 Starting in NX-OS 9.3.1, Nexus switches support the following subscription features:
