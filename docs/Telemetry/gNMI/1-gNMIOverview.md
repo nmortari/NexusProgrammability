@@ -24,3 +24,20 @@ gNMI can be transmitted in two ways:
 * Dial-Out
     * In this mode, the switch will initiate the connection to the client.
 
+NX-OS supports the following gNMI RPCs:
+
+* Get
+* Set
+* Subscribe
+* Capabilities
+
+## gNMI Subscription
+
+Starting in NX-OS 9.3.1, Nexus switches support the following subscription features:
+
+* Once
+    * The switch will send current values only once.
+* Poll
+    * When the switch receives a poll message, it will send current values.
+* Stream - Sample
+    * The switch will send current values every stream interval. Supported time interval ranges are from 1 to 604800 seconds. The default sample time is 10 seconds.
