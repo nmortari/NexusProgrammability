@@ -39,13 +39,18 @@ FILL IN LATER
 ## gNMI Subscription
 gNMI subscription can be used with both dial-in or dial-out methods.
 
-* For dial-in subscriptions, the client has the configuration of what it would like from the switch. It will then reach out and 
+* For dial-in subscriptions, the client has the configuration of what it would like from the switch. It will connect to the switch and pull the information listed in the client subscription configuration.
+* For dial-out subscriptions, the switch has the configuration of what to provide to the client. It will connect to the client and send the information listed in the switch subscription configuration.
 
 Starting in NX-OS 9.3.1, Nexus switches support the following subscription features:
 
 * Once
-    * The switch will send current values only once.
+    * Collect current values only once.
 * Poll
     * When the switch receives a poll message, it will send current values.
 * Stream - Sample
-    * The switch will send current values every stream interval. Supported time interval ranges are from 1 to 604800 seconds. The default sample time is 10 seconds.
+    * Collect current values every stream interval. Supported time interval ranges are from 1 to 604800 seconds. The default sample time is 10 seconds.
+* Stream - On_Change
+    * Collect current values immediately. After this intiial collection, only collect values when there is a change.
+* Stream - Target_Defined
+    * This allows the target to define the best type of subscription to use.
